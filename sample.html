@@ -3,11 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TABLES</title>
+    <title>TABLES 2</title>
+    <style>
+        table{
+            border: 5px solid purple;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 2px solid black;
+            padding: 20px;
+            text-align:center;
+            background-color: blue;
+        }
+        th{
+            background-color: chartreuse;
+        }
+    </style>
 </head>
 <body>
-    
 
-    
+    <table>
+        <thead>
+        <tr>
+            <th>Sodas</th>
+            <th>Milkshakes</th>
+            <th>Food</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Fanta</td>
+            <td>Oreo</td>
+            <td>Chapati</td>
+        </tr>
+    </tbody>
+
+    <tbody>
+        <tr>
+            <td>Sprite</td>
+            <td>Mango</td>
+            <td>Fries</td>
+        </tr>
+    </tbody>   
+
+    <tfoot>
+        <tr>
+            <td colspan="3">Nice</td>
+            <td rowspan="2">Enjoy</td>
+        </tr>
+    </tfoot>
+    </table>
+
+    <nav>
+        <a href="table.html">Lists 2</a>
+    </nav>
 </body>
 </html>
